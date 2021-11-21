@@ -1,0 +1,7 @@
+.accordion__panel {
+    display: none;
+}
+
+.accordion__panel.show {
+    display: block;
+}
