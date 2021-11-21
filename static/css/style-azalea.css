@@ -1,13 +1,14 @@
 html,
 body {
     font-family: "Roboto", sans-serif;
-    color: #758194;
+    color: #000;
     font-size: 14px;
     line-height: 1.6;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     position: relative;
+    background-color: #fff !important;
 }
 
 @media (min-width: 576px) {
@@ -72,7 +73,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-    color: #0e3d3d;
+    color: #000 !important;
     font-weight: 700;
     font-family: "Quicksand", sans-serif;
     line-height: 1.45;
@@ -112,7 +113,8 @@ h6:last-child,
 p {
     font-size: 14px;
     margin-bottom: 1rem;
-    color: #758194;
+    color: #000;
+
 }
 
 p:last-child {
@@ -274,7 +276,7 @@ h6,
 .tc-base-white,
 .tc-light,
 .tc-light a:not(.btn):not([class*="link-"]) {
-    color: #e2dddd;
+    color: #000;
 }
 
 .tc-base-white-hover,
@@ -284,7 +286,7 @@ h6,
 
 .tc-default,
 .tc-default a {
-    color: #e2dddd !important;
+    color: #000 !important;
 }
 
 .tc-alternet,
@@ -332,17 +334,17 @@ h6,
 
 .tc-light p,
 .tc-light .list {
-    color: #e2dddd;
+    color: #000;
 }
 
 .tc-light .lead,
 .tc-light .lead-light,
 .tc-light .lead-s2 {
-    color: #e2dddd;
+    color: #000;
 }
 
 .tc-light-alt a:not(.btn):not([class*="link-"]) {
-    color: #e2dddd !important;
+    color: #000 !important;
 }
 
 .tc-light-alt a:not(.btn):not([class*="link-"]):hover {
@@ -350,7 +352,7 @@ h6,
 }
 
 .tc-light-alt li {
-    color: #e2dddd;
+    color: #000;
 }
 
 .tc-lighter {
@@ -373,7 +375,7 @@ h6,
 }
 
 .tc-white {
-    color: #fff !important;
+    color: rgb(155, 150, 150) !important;
 }
 
 .bg-default {
@@ -542,7 +544,7 @@ h6,
 }
 
 .bg-theme {
-    background-color: #0e3d3d !important;
+    background-color: #fff !important;
 }
 
 .bg-theme.current {
@@ -2461,7 +2463,7 @@ a .title {
 }
 
 .tc-light .countdown-s3 .countdown-time {
-    color: #fff;
+    color: #000;
 }
 
 .countdown-s3 .countdown-time:after {
@@ -2540,7 +2542,7 @@ a .title {
 }
 
 .tc-light .countdown-s3 .countdown-text {
-    color: #e2dddd;
+    color: #000;
 }
 
 .countdown-s3-alt .countdown-text {
@@ -2789,6 +2791,7 @@ hr+.nk-block {
 
 .nk-body {
     min-width: 320px;
+    overflow: hidden;
 }
 
 .nk-pages-centered {
